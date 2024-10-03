@@ -1,10 +1,6 @@
 //
 //  NSApplication+Private.h
-//  AfloatX
-//
-//  Created by Jeremy on 11/7/21.
-//  Copyright © 2021 j. All rights reserved.
-//
+//  AfloatY
 
 #ifndef NSApplication_Private_h
 #define NSApplication_Private_h

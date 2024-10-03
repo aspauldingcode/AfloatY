@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "09AA55EE2350FFBE00356916"
-               BuildableName = "AfloatX.bundle"
-               BlueprintName = "AfloatX"
-               ReferencedContainer = "container:AfloatX.xcodeproj">
+               BuildableName = "AfloatY.bundle"
+               BlueprintName = "AfloatY"
+               ReferencedContainer = "container:AfloatY.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "09AA55EE2350FFBE00356916"
-            BuildableName = "AfloatX.bundle"
-            BlueprintName = "AfloatX"
-            ReferencedContainer = "container:AfloatX.xcodeproj">
+            BuildableName = "AfloatY.bundle"
+            BlueprintName = "AfloatY"
+            ReferencedContainer = "container:AfloatY.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
