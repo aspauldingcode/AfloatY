@@ -1,10 +1,6 @@
 //
-//  NSWindow+AfloatX.h
-//  AfloatX
-//
-//  Created by Jeremy on 10/23/20.
-//  Copyright © 2020 j. All rights reserved.
-//
+//  NSWindow+AfloatY.h
+//  AfloatY
 
 #import <AppKit/AppKit.h>
 #import <CoreImage/CIFilter.h>
@@ -19,7 +15,7 @@ typedef enum {
     CGSTagSticky        = 0x0800,   // Appears on all workspaces.
 } CGSWindowTag;
 
-@interface NSWindow (AfloatX)
+@interface NSWindow (AfloatY)
 
 + (NSWindow *)topWindow;
 + (void)setTopWindowCGWindowLevel:(CGWindowLevel)level;

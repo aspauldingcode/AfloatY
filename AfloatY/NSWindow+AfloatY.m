@@ -1,12 +1,8 @@
 //
-//  NSWindow+AfloatX.m
-//  AfloatX
-//
-//  Created by Jeremy on 10/23/20.
-//  Copyright © 2020 j. All rights reserved.
-//
+//  NSWindow+AfloatY.m
+//  AfloatY
 
-#import "NSWindow+AfloatX.h"
+#import "NSWindow+AfloatY.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
 
@@ -22,7 +18,7 @@ CG_EXTERN CGError CGSClearWindowTags(CGSConnectionID cid, CGWindowID wid, CGSWin
 - (NSWindow *)frontWindow;
 @end
 
-@implementation NSWindow (AfloatX)
+@implementation NSWindow (AfloatY)
 
 + (NSWindow *)topWindow {
     NSWindow *window = [NSApp mainWindow];

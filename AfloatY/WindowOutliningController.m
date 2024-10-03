@@ -1,13 +1,9 @@
 //
 //  WindowOutliningController.m
-//  AfloatX
-//
-//  Created by j on 1/19/20.
-//  Copyright © 2020 j. All rights reserved.
-//
+//  AfloatY
 
 #import "WindowOutliningController.h"
-#import "NSWindow+AfloatX.h"
+#import "NSWindow+AfloatY.h"
 
 @interface WindowOutliningController ()
 @property (strong) NSColor *NSColorWhite;

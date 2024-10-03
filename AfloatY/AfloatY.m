@@ -1,14 +1,10 @@
 //
-//  AfloatX.m
-//  AfloatX
-//
-//  Created by Jeremy Legendre on 10/11/19.
-//Copyright © 2019 Jeremy Legendre. All rights reserved.
-//
+//  AfloatY.m
+//  AfloatY
 
 @import AppKit;
-#import "AfloatX.h"
-#import "NSWindow+AfloatX.h"
+#import "AfloatY.h"
+#import "NSWindow+AfloatY.h"
 #import "NSApplication+Private.h"
 #import "WindowTransparencyController.h"
 #import "WindowOutliningController.h"
@@ -16,11 +12,11 @@
 #import <objc/runtime.h>
 #import <objc/message.h>
 
-AfloatX *plugin = NULL;
+AfloatY *plugin = NULL;
 
-NSMenu *AfloatXMenu;
-NSMenuItem *AfloatXItem;
-NSMenu *AfloatXSubmenu;
+NSMenu *AfloatYMenu;
+NSMenuItem *AfloatYItem;
+NSMenu *AfloatYSubmenu;
 NSMenuItem *floatItem;
 NSMenuItem *dropItem;
 NSMenuItem *transparencyItem;
@@ -29,12 +25,12 @@ NSMenuItem *stickyItem;
 NSMenuItem *invertColorItem;
 NSMenuItem *clickPassthroughItem;
 NSMenuItem *windowOutlineItem;
-NSArray *afloatXItems;
+NSArray *afloatYItems;
 CIFilter* colorInvertFilter;
 
 bool onSonomaOrHigher = false;
 
-@implementation AfloatX
+@implementation AfloatY
 
 + (instancetype)sharedInstance {
     if (!plugin) {

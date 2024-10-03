@@ -1,10 +1,6 @@
 //
 //  WindowTransparencyController.m
-//  AfloatX
-//
-//  Created by j on 12/6/19.
-//  Copyright © 2019 j. All rights reserved.
-//
+//  AfloatY
 
 #import "WindowTransparencyController.h"
 

@@ -11,8 +11,8 @@
 		09613B03239E014100E8C657 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 09613B02239E014100E8C657 /* Icon.icns */; };
 		09A55408239AE583006CB957 /* WindowTransparencyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A55407239AE583006CB957 /* WindowTransparencyController.m */; };
 		09A77E8B2543747B00A5A789 /* NSWindow+AfloatX.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A77E8A2543747B00A5A789 /* NSWindow+AfloatX.m */; };
-		09AA55FC2350FFBE00356916 /* AfloatX.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AA55FB2350FFBE00356916 /* AfloatX.m */; };
 		09AA56002350FFBE00356916 /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AA55FF2350FFBE00356916 /* ZKSwizzle.m */; };
+		FAB234A82CAE3F5B0020F7EE /* AfloatX.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AA55FB2350FFBE00356916 /* AfloatX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,7 +149,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09AA55EA2350FFBE00356916 /* Build configuration list for PBXProject "AfloatX" */;
+			buildConfigurationList = 09AA55EA2350FFBE00356916 /* Build configuration list for PBXProject "AfloatY" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -183,9 +183,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB234A82CAE3F5B0020F7EE /* AfloatX.m in Sources */,
 				09A77E8B2543747B00A5A789 /* NSWindow+AfloatX.m in Sources */,
 				09A55408239AE583006CB957 /* WindowTransparencyController.m in Sources */,
-				09AA55FC2350FFBE00356916 /* AfloatX.m in Sources */,
 				09AA56002350FFBE00356916 /* ZKSwizzle.m in Sources */,
 				091DC75923D5555900717833 /* WindowOutliningController.m in Sources */,
 			);
@@ -380,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09AA55EA2350FFBE00356916 /* Build configuration list for PBXProject "AfloatX" */ = {
+		09AA55EA2350FFBE00356916 /* Build configuration list for PBXProject "AfloatY" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09AA56032350FFBE00356916 /* Debug */,

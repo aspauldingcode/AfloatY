@@ -1,10 +1,6 @@
 //
 //  WindowOutliningController.h
-//  AfloatX
-//
-//  Created by j on 1/19/20.
-//  Copyright © 2020 j. All rights reserved.
-//
+//  AfloatY
 
 #import <AppKit/AppKit.h>
 
