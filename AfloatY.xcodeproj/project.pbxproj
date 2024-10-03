@@ -316,13 +316,13 @@
 				CURRENT_PROJECT_VERSION = 1.5;
 				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = "";
-				DSTROOT = "/Library/Application Support/MacEnhance/";
+				DSTROOT = "$(HOME)/AfloatY/build";
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AfloatX/PrefixHeader.pch;
 				INFOPLIST_FILE = AfloatX/Info.plist;
-				INSTALL_PATH = Plugins;
+				INSTALL_PATH = /Library/Application Support/MacEnhance/Plugins;
 				LLVM_LTO = YES;
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -354,14 +354,14 @@
 				CURRENT_PROJECT_VERSION = 1.5;
 				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = "";
-				DSTROOT = "/Library/Application Support/MacEnhance/";
+				DSTROOT = "$(HOME)/AfloatY/build";
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AfloatX/PrefixHeader.pch;
 				INFOPLIST_FILE = AfloatX/Info.plist;
-				INSTALL_PATH = Plugins;
+				INSTALL_PATH = /Library/Application Support/MacEnhance/Plugins;
 				LLVM_LTO = YES;
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -389,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09AA56052350FFBE00356916 /* Build configuration list for PBXNativeTarget "AfloatX" */ = {
+		09AA56052350FFBE00356916 /* Build configuration list for PBXNativeTarget "AfloatY" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09AA56062350FFBE00356916 /* Debug */,
